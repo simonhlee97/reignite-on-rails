@@ -1,0 +1,9 @@
+<h2>The Reignite Blog</h2>
+
+<% @blog_posts.each do |blog_post| %>
+  <div>
+    <h2><%= blog_post.title %></h2>
+    <p><%= blog_post.body %></p>
+    <hr>
+  </div>
+<% end %>

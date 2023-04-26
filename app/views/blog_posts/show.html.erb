@@ -1,0 +1,13 @@
+<h2>Blog blog_post ID: 9999</h2>
+
+<div id="<%= dom_id @blog_post %>">
+  <h2><%= @blog_post.title %></h2>
+  
+  
+  <%# blog_post.images.each do |image| %>
+    <%# image_tag(image, style:"width:300px; height: auto")%>
+  <%# end %>
+  <div>
+    <%= @blog_post.body %>
+  </div>
+</div>
